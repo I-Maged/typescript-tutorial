@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   width: 100vw;
   min-height: 100vh;
@@ -96,7 +104,6 @@
 
 .todos__heading {
   font-size: 30px;
-  /* text-align: center; */
   color: white;
 }
 
